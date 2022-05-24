@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
-public class Validate
+public static class Validate
 {
     public static void RunInCorrectArgs(string value, [CallerArgumentExpression("value")] string expression = "",
         string conditionExpression = "")
